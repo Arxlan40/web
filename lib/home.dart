@@ -58,7 +58,7 @@ class _WebViewWebPageState extends State<HomePage> {
 
 
   }
-  var URL = "https://lacremafoodandgrill.ecwid.com/";
+  var URL = "https://wilsoninmatepackageprogram.com/";
   double progress = 0;
   InAppWebViewController webView;
 
@@ -68,14 +68,14 @@ class _WebViewWebPageState extends State<HomePage> {
     return WillPopScope(
       onWillPop: _onBack,
       child: Scaffold(
-        floatingActionButton: FloatingActionButton(
-            child: Icon(Icons.refresh),
-            onPressed: (){
-          _refresh();
-        }),
+        // floatingActionButton: FloatingActionButton(
+        //     child: Icon(Icons.refresh),
+        //     onPressed: (){
+        //   _refresh();
+        // }),
         appBar: AppBar(
-          backgroundColor: Colors.blue,
-          title: Center(child: Text("LA Crema Food and Grill")),
+          backgroundColor: Colors.black,
+          title: Center(child: Text("Wilson Inmate Package Program")),
         ),
         body: Container(
 child: Column(

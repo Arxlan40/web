@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'LA Crema Food and Grill',
+      title: 'Wilson Inmate Package Program',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

@@ -40,9 +40,12 @@ class _SplashScreenState extends State<SplashScreen> {
     body: Container(
           height: _height / 1.1365,
       width: _width,
-      child: Image.asset(
-            'assets/splash.png',
-          ),
+      child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: Image.asset(
+              'assets/splash.png',
+            ),
+      ),
         ));
   }
 }
