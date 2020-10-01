@@ -38,14 +38,15 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
 
     body: Container(
+      color: Colors.white,
           height: _height / 1.1365,
       width: _width,
-      child: Padding(
-        padding: const EdgeInsets.all(15.0),
-        child: Image.asset(
-              'assets/splash.png',
-            ),
-      ),
+      // child: Padding(
+      //   padding: const EdgeInsets.all(15.0),
+      //   child: Image.asset(
+      //         'assets/splash.png',
+      //       ),
+      // ),
         ));
   }
 }
